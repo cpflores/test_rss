@@ -1,0 +1,21 @@
+<h3>Feed</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Entry Name</th>
+      <th>Summary</th>
+      <th>Url</th>
+    </tr>
+  </thead>
+
+  <tbody>
+		<% for entry in FeedEntry.all %>
+    	<tr>
+	    	<td><%= link_to h(entry.name), entry.url %></td>
+	    	<td><%= entry.summary %></td>
+	    	<td><%= entry.url %></td>
+	  	</tr>
+		<% end %>
+	</tbody>
+</table>
