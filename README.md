@@ -4,5 +4,6 @@ This is a sample rss reader application for finding the most high quality news, 
 * Feedjira - rss parsing
 * Bootsnipp - UI elements compatible with Bootstrap
 * Bootstrap - Frontend design framework
+* Desvise - user authentication
 
 Made by [Chad](https://twitter.com/chadpflores) for [BuildRed.co](http://buildred.co/). s
